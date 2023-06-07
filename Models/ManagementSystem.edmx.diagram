@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="909d8d83b3fe4cfd8185d968c4ae68b3" Name="Diagram1">
+        <EntityTypeShape EntityType="ManagementSystemModel.Batch" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ManagementSystemModel.Course" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ManagementSystemModel.Exam__Info" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ManagementSystemModel.std_Info" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ManagementSystemModel.Student_Registration" Width="1.5" PointX="6" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ManagementSystemModel.teacher" Width="1.5" PointX="2.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ManagementSystemModel.User" Width="1.5" PointX="4.75" PointY="8.625" IsExpanded="true" />
+        <AssociationConnector Association="ManagementSystemModel.FK__std_Info__Batch___48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="ManagementSystemModel.FK__Student_R__Batch__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="ManagementSystemModel.FK__std_Info__Course__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="ManagementSystemModel.FK__Student_R__Cours__3B75D760" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

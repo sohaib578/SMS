@@ -1,0 +1,65 @@
+﻿@model SMS.Models.marks
+@{
+    ViewBag.Title = "Index";
+}
+<style>
+    h2 {
+        color: dodgerblue;
+        margin-bottom: 100px;
+        margin-top: -100px;
+    }
+</style>
+
+<h2>Index</h2>
+<html>
+<head>
+
+
+
+
+</head>
+
+<body>
+
+    <h2>Students Marks Calculation </h2>
+    <div class="row">
+        @using (Html.BeginForm("/Index", "student", FormMethod.Post))
+        {
+            <div class="form-group">
+                <label for="course1">Course 1</label>
+                <input type="text" class="form-control" id="course1" name="course1" value="@Model.course1" />
+            </div>
+            <div class="form-group">
+                <label for="course2">Course 2</label>
+                <input type="text" class="form-control" id="course2" name="course2" value="@Model.course2" />
+            </div>
+            <div class="form-group">
+                <label for="course3">Course 3</label>
+                <input type="text" class="form-control" id="course3" name="course3" value="@Model.course3" />
+            </div>
+            <div class="form-group">
+                <label for="course4">Course 4</label>
+                <input type="text" class="form-control" id="course4" name="course4" value="@Model.course4" />
+            </div>
+            <div class="form-group">
+                <label for="total">Total</label>
+                <input type="text" class="form-control" id="tot" name="tot" value="@Model.tot" />
+            </div>
+            <div class="form-group">
+                <label for="total">Average</label>
+                <input type="text" class="form-control" id="avg" name="avg" value="@Model.avg" />
+            </div>
+            <div class="form-group">
+                <label for="total">Grades</label>
+                <input type="text" class="form-control" id="grade" name="grade" value="@Model.grade" />
+            </div>
+            <button type="submit" class="btn btn-info" id="add" values="add">OK</button>
+
+        }
+
+
+    </div>
+
+
+</body>
+</html>
